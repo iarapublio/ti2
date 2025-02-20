@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Soma2{
 	public static void main(String[ ] args){
 	Scanner entrada = new Scanner(System.in);
-    int n1 = 0, n2 = 0, soma = 0;
+	int n1 = 0, n2 = 0, soma = 0;
 
 	System.out.println("Digite o primeiro numero: ");
 	n1 = entrada.nextInt();
@@ -11,6 +11,6 @@ class Soma2{
 	n2 = entrada.nextInt();
     
 	System.out.print(n1+ "+"+n2+ "=" +(n1+n2)); 
-    entrada.close();
+	entrada.close();
 	}
 }
